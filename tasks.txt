@@ -35,7 +35,7 @@
  On 'go closer' input, a virtual visitor should come closer to the cage.
  * If there is a dangerous animal in the cage, a virtual visitor should die with a depressing message.
  * If a virtual user have read the information about the animal, the program should not allow to come close.
- * If a virtual visitor looked closer at all of the cells remained alive, display a victorious message.
+ * If a virtual visitor looked closer at all of the cages remained alive, display a victorious message.
 
  On 'go prev' input, a virtual visitor should go back, to the previous cage.
 
