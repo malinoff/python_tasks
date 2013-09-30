@@ -1,0 +1,42 @@
+
+ Task 1: Degrees converter
+
+ The program should convert degrees from Celsius to Kelvin and Fahrenheit.
+
+ Input: degrees as a number, int or float.
+ Output: properly converted degrees.
+
+ Task 2: Name chooser
+
+ The program should act as a simple registator. User inputs a name, the program remembers it if not occupied. Otherwise, the program should show 4 other similar available names.
+ The program should not be terminated as long as user enters the correct name.
+
+ Input: name as a string.
+ Output: OK if the name is available, 4 available names otherwise.
+
+ Task 3: The ZOO, part 1
+
+ The program should reflect a real ZOO. In any ZOO you have multiple sections with different kinds of animals, birds or fishes. Each section consists of multiple different species of an animal. For example, there may be 'Primates' section consists of Baboons, Macaques and Orangutans.
+
+ On 'go next' input, a virtual visitor should go to the next non-visited cage.
+
+ On 'read info' input, a virtual visitor should read an information about the animal.
+
+ On 'go exit' input, a virtual visitor should leave the ZOO.
+
+ Task 4: The ZOO, part 2
+
+ Not required sub-tasks marked with the star (*).
+
+ The program extends Task 3: The ZOO, part 1.
+
+ When a virtual visitor comes to a cage, the animal should say something according to its kind.
+
+ On 'go closer' input, a virtual visitor should come closer to the cage.
+ * If there is a dangerous animal in the cage, a virtual visitor should die with a depressing message.
+ * If a virtual user have read the information about the animal, the program should not allow to come close.
+ * If a virtual visitor looked closer at all of the cells remained alive, display a victorious message.
+
+ On 'go prev' input, a virtual visitor should go back, to the previous cage.
+
+ On 'go X Y' input, where X is a number and Y is a direction (prev, next), a virtual visitor should go X times in Y direction.
